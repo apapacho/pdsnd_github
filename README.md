@@ -15,7 +15,7 @@ In this project, it is used data provided by Motivate, a bike share system provi
 -Python
 -Pandas
 -NumPy
--Excel
+-Excel (washington.csv, new_york_city.csv, chicago.csv)
 
 ### Contributing for the project
 To contribute to pdsnd_github, follow these steps:
