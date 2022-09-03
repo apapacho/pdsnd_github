@@ -25,4 +25,15 @@ To contribute to pdsnd_github, follow these steps:
 - Make your changes and confirm them: git commit -m '<mensagem_commit>'
 - Push to the original branch: git push origin <project_name> / <local>
 - Create a pull request.
+  
+### 🐞Known bugs
+  * Fix load file washington.csv ✔
+  * Fix days of the week input ✔
+  
+### Acknowledgements and credits for any resources or blogs that helped you create the project.
+  * Udacity
+  * GeeksforGeeks
+  
+### Copyright and licensing information.
+  * Udacity
 
