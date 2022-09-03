@@ -118,8 +118,8 @@ def time_stats(df):
     # TO DO: display the most common start hour
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['hour'] = df['Start Time'].dt.hour
-    common_hour = df['hour'].mode()[0]
-    print('The most common start hour: {}'.format(common_hour))
+    c_hour = df['hour'].mode()[0]
+    print('The most common start hour: {}'.format(c_hour))
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-' * 40)
@@ -199,8 +199,8 @@ def show_data(df):
         i += 5
         break
     while True:
-        view_more_data = input('Do you wish to continue to see the next 5 rows of data? ').lower()
-        if view_more_data == ('yes', 'y'):
+        view_more = input('Do you wish to continue to see the next 5 rows of data? ').lower()
+        if view_more == ('yes', 'y'):
             i += 5
             print(df.iloc[i:i + 10, :])
         else:
