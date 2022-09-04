@@ -26,3 +26,5 @@ To contribute to pdsnd_github, follow these steps:
 - Push to the original branch: git push origin <project_name> / <local>
 - Create a pull request.
 
+### Colaboration
+If you want to colaborate on this project you are welcome, your comments and ideas are important for me💛✨
