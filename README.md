@@ -26,3 +26,8 @@ To contribute to pdsnd_github, follow these steps:
 - Push to the original branch: git push origin <project_name> / <local>
 - Create a pull request.
 
+### Documentation
+- Udacity Inc
+- Git scm
+
+
